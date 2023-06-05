@@ -190,5 +190,4 @@ FROM
  JOIN play_store_apps USING (name)
 ORDER BY
   potential_profit DESC
-LIMIT 10;
-
+LIMIT 50;
